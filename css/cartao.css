@@ -1,0 +1,124 @@
+.cartoes{
+    /* border: solid green; */
+    margin:auto;
+    background-color: var(--bg-color);
+    
+}
+
+.cartao__base{
+    width:85%;
+    /* border: solid red;   */
+    margin:auto; 
+    background-color:var(--branco);
+    padding: 16px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+
+}
+
+.cartao__base--superior{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    border-bottom: solid var(--cinza-borda) 1px;
+    /* border-bottom-width: 100%; */
+     
+}
+
+.cartao__base--imagem{
+    border-radius: 100%;
+    height: 32px;
+    width: 32px;
+    margin: 16px;
+  
+}
+
+.cartao__base--dados{
+    flex-grow: 1;
+    padding: 0 8px;
+}
+
+.cartao__base--nome{
+    padding-top: 16px;
+    padding-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.cartao__base--tipoconsulta{
+    color: var(--cinza-claro);
+    
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    
+}
+
+.cartao__base--consultaremota{
+    background-image: url(../img/Camera34.png);
+}
+
+.cartao__base--consultanolocal{
+    background-image: url(../img/pin.png);
+}
+
+.cartao__base--icone{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.cartao__base--chat{
+    
+    padding: 16px;
+    border-radius:100%;
+    background-color: var(--cinza-borda);
+    background-image: url(../img/chat1.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.cartao__horario{
+    padding: 16px 10px;
+    font-size: 12px;
+
+}
+
+.cartao__butttons{
+    display: flex;
+    justify-content: space-around;
+      
+}
+
+.cartao__button--base{
+    padding: 13px 16px;
+    border-radius: 8px;
+    font-family: var(--montserrat);
+    font-size: 14px;
+    padding: 13px 16px;
+    
+    line-height: 160%;
+
+}
+
+.cartao__button--ligarporvideo{
+    color: var(--branco);
+    background-color:var(--laranja-claro);  
+    border: none;
+    width: 45%;
+
+}
+
+.cartao__button--ligarporaudio{
+    color: var(--preto-h1);
+    background-color:var(--branco);  
+    border: solid var(--cinza-borda) 1px;
+    width: 45%;
+
+}
+
+.cartao__button--verendereco{
+    color:var(--branco);
+    background-color: var(--azul-claro);
+    border:none;
+    width: 95%;
+}

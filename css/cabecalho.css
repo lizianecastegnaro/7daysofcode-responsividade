@@ -1,0 +1,53 @@
+
+.cabecalho__barra{
+    display: flex;
+    justify-content: space-between;   
+    background-color: #fff;
+    opacity: 1;
+    
+}
+
+.cabecalho__horario{
+    font-family:var(--montserrat);
+    padding: 5px 16px 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:22.4px;
+}
+
+.cabecalho__imagens{
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.cabecalho__ola{
+    display:flex;
+    align-items: center;
+    padding: 32px 16px 22px 16px;
+    
+}
+
+.cabecalho__perfil {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+   
+}
+
+.cabecalho__texto{
+    padding:16px;
+
+}
+.cabecalho__ola--sonia{
+    font-weight: 700;
+    font-size:22px;
+    line-height: 35.2px;
+
+
+}
+
+.cabecalho__aviso{
+    color: var(--cinza-claro);
+    /* background-color: #fff; */
+}
+    
